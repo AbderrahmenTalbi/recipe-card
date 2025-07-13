@@ -1,36 +1,115 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🍳 Simple Omelette Recipe
 
-## Getting Started
+A responsive recipe card built with **Next.js**, **Tailwind CSS**, and locally hosted custom fonts. This project was created as part of a Frontend Mentor challenge.
 
-First, run the development server:
+![Omelette Recipe Screenshot](public/images/image-omelette.jpeg)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+---
+
+## 🚀 Live Demo
+
+👉 [View Live Site](https://recipe-card-zeta.vercel.app/)
+
+---
+
+## 📖 About The Project
+
+This recipe card displays an elegant design with:
+
+* A hero image of the omelette.
+* A preparation time section.
+* A list of ingredients.
+* Step-by-step instructions.
+* Nutritional information.
+
+The layout is fully **responsive**:
+
+* **Mobile:** Takes full width for better readability.
+* **Desktop:** Centered with rounded corners and padding.
+
+---
+
+## 🛠 Built With
+
+* [Next.js](https://nextjs.org/) – React framework for server-side rendering.
+* [Tailwind CSS](https://tailwindcss.com/) – Utility-first CSS framework.
+* [Custom Fonts](https://fonts.google.com/) – Outfit and Young Serif (locally hosted).
+* [Frontend Mentor](https://www.frontendmentor.io/) – Challenge provider.
+
+---
+
+## 📂 Folder Structure
+
+```
+recipe-card/
+├── public/
+│   ├── fonts/
+│   │   ├── outfit/
+│   │   └── young-serif/
+│   └── images/
+│       └── image-omelette.jpeg
+├── src/
+│   └── app/
+│       ├── globals.css
+│       ├── layout.js
+│       └── page.js
+└── README.md
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 🖥️ Getting Started
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Prerequisites
 
-## Learn More
+* Node.js installed: [Download here](https://nodejs.org/)
+* Git installed: [Download here](https://git-scm.com/)
 
-To learn more about Next.js, take a look at the following resources:
+### Installation
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. **Clone the repo**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+   ```bash
+   git clone https://github.com/AbderrahmenTalbi/recipe-card.git
+   ```
 
-## Deploy on Vercel
+2. **Go to the project directory**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   ```bash
+   cd recipe-card
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+3. **Install dependencies**
+
+   ```bash
+   npm install
+   ```
+
+4. **Run the development server**
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+---
+
+## ✨ Features
+
+✅ Responsive design (mobile & desktop)
+✅ Custom locally hosted fonts
+✅ Clean, modern UI with Tailwind CSS
+✅ Deployed with Vercel
+
+---
+
+
+
+## 🙌 Acknowledgements
+
+* [Frontend Mentor Challenge](https://www.frontendmentor.io/)
+* [Next.js Documentation](https://nextjs.org/docs)
+* [Tailwind CSS Documentation](https://tailwindcss.com/docs)
+
+
