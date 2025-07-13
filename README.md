@@ -8,7 +8,7 @@ A responsive recipe card built with **Next.js**, **Tailwind CSS**, and locally h
 
 ## 🚀 Live Demo
 
-👉 [View Live Site](https://recipe-card-zeta.vercel.app/)
+👉 [View Live Site](https://recipe-card-iota.vercel.app/)
 
 ---
 
